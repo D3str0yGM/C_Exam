@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main()
+int main()
 {
     int x = 2147483647;
 
@@ -12,4 +12,6 @@ void main()
         sualda soruşur ki çap olunan ədədlərin maksimal sayı neçədir
         cavab 10 olur çünki bir integer dəyər maximum qiyməti 2147483647 budu bunun rəqəmlərinin sayı 10-dur.
     */
+
+    return 0;
 }

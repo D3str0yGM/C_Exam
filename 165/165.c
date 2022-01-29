@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main()
+int main()
 {
     float x = 0;
     float y;
@@ -19,4 +19,6 @@ void main()
         x = 3.140
         y = -4.041
     */
+
+    return 0;
 }

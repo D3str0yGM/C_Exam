@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int a = 5;
     int b = 9;
@@ -21,4 +21,6 @@ void main()
 
     printf("%d", d);
     //cavab: 5
+
+    return 0;
 }

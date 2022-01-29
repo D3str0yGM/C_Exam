@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     float a = 11, b = 19, c = 17, d = 15;
 
@@ -15,4 +15,6 @@ void main()
 
     printf("%f", d);
     //cavab: 15.000000
+
+    return 0;
 }

@@ -1,10 +1,14 @@
 #include <stdio.h>
 
-void main()
+int main(int argc, const char *argv[])
 {
 
-    int k2 = 0;
-    int b2 = ++k2 + k2++;
+    int x = 0;
+    int y;
+    y = ++x + x++;
+    //y = 1 + 1 = 2
 
-    printf("%d", b2); //cavab: 3
+    printf("%d\n", y); //cavab: 2
+
+    return 0;
 }

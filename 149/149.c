@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int c1 = 6;
     int d1 = 1;
@@ -25,4 +25,6 @@ void main()
         printf("%d", c2);
         //c1 = 5, d1 = 1 olduqda cavab: c1 = 3, c2 = 3
     }
+
+    return 0;
 }
